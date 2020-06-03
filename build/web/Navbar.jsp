@@ -7,7 +7,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-    
+
     <!-- header-start -->
     <header>
         <div class="header-area ">
@@ -29,12 +29,12 @@
                                             <li><a class="active" href="index.jsp">home</a></li>
                                             <li><a href="about.jsp">About</a></li>
                                             <li><a class="" href="travel_destination.jsp">Destination</a></li>
-                                            <li><a href="#">pages <i class="ti-angle-down"></i></a>
-                                                <ul class="submenu">
-                                                        <li><a href="destination_details.jsp">Destinations details</a></li>
-                                                        <li><a href="elements.jsp">elements</a></li>
-                                                </ul>
-                                            </li>
+                                                <%--  <li><a href="#">pages <i class="ti-angle-down"></i></a>
+                                                    <ul class="submenu">
+                                                            <li><a href="destination_details.jsp">Destinations details</a></li>
+                                                            <li><a href="elements.jsp">elements</a></li>
+                                                    </ul>
+                                                </li> --%>
                                             <li><a href="#">blog <i class="ti-angle-down"></i></a>
                                                 <ul class="submenu">
                                                     <li><a href="blog.jsp">blog</a></li>
@@ -42,6 +42,7 @@
                                                 </ul>
                                             </li>
                                             <li><a href="contact.jsp">Contact</a></li>
+                                            <li><a href="inscription.jsp">Inscription</a></li>
                                         </ul>
                                     </nav>
                                 </div>
