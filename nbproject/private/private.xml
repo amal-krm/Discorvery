@@ -4,11 +4,13 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/Amal/Desktop/info102/jee/Discovery/web/User/index.jsp</file>
+            <file>file:/C:/Users/Amal/Desktop/info102/jee/Discovery/web/User/Liste.jsp</file>
+            <file>file:/C:/Users/Amal/Desktop/info102/jee/Discovery/src/java/Login.java</file>
             <file>file:/C:/Users/Amal/Desktop/info102/jee/Discovery/web/User/Navbar.jsp</file>
-            <file>file:/C:/Users/Amal/Desktop/info102/jee/Discovery/web/User/Participations.jsp</file>
-            <file>file:/C:/Users/Amal/Desktop/info102/jee/Discovery/web/Navbar.jsp</file>
-            <file>file:/C:/Users/Amal/Desktop/info102/jee/Discovery/web/index.jsp</file>
-            <file>file:/C:/Users/Amal/Desktop/info102/jee/Discovery/web/User/blog.jsp</file>
+            <file>file:/C:/Users/Amal/Desktop/info102/jee/Discovery/web/contact.jsp</file>
+            <file>file:/C:/Users/Amal/Desktop/info102/jee/Discovery/web/User/Voyages.jsp</file>
+            <file>file:/C:/Users/Amal/Desktop/info102/jee/Discovery/web/User/contact.jsp</file>
+            <file>file:/C:/Users/Amal/Desktop/info102/jee/Discovery/web/User/footer.jsp</file>
         </group>
     </open-files>
 </project-private>

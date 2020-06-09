@@ -1,13 +1,36 @@
-<%-- 
-    Document   : Navbar
-    Created on : 3 juin 2020, 00:55:36
-    Author     : Amal
---%>
+<!doctype html>
+<html class="no-js" lang="zxx">
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Travelo</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/magnific-popup.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/themify-icons.css">
+    <link rel="stylesheet" href="../css/nice-select.css">
+    <link rel="stylesheet" href="../css/flaticon.css">
+    <link rel="stylesheet" href="../css/jquery-ui.css">
+    <link rel="stylesheet" href="../css/gijgo.css">
+    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../css/slick.css">
+    <link rel="stylesheet" href="../css/slicknav.css">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+</head>
+
+<body>
     <!-- header-start -->
     <header>
         <div class="header-area ">
@@ -18,7 +41,7 @@
                             <div class="col-xl-2 col-lg-2">
                                 <div class="logo">
                                     <a href="index.jsp">
-                                        <img src="img/logo.png" alt="" height=35 width=200>
+                                        <img src="../img/logo.png" alt="" height=35 width=200>
                                     </a>
                                 </div>
                             </div>
@@ -27,31 +50,31 @@
                                     <nav>
                                         <ul id="navigation">
                                             <li><a class="active" href="index.jsp">home</a></li>
-                                            <li><a class="active" href="/User/Participations.jsp">Participations</a></li>
+                                            <li><a class="active" href="Participations.jsp">Participations</a></li>
                                             <li><a href="#">Voyages <i class="ti-angle-down"></i></a>
                                                 <ul class="submenu">
-                                                    <li><a href="blog.jsp">Ma Liste</a></li>
-                                                    <li><a href="single-blog.jsp">Tout Voyages</a></li>
+                                                    <li><a href="Liste.jsp">Ma Liste</a></li>
+                                                    <li><a href="Voyages.jsp">Tout Voyages</a></li>
                                                 </ul>
                                             </li>
-                                            
+
                                             <li><a href="contact.jsp">Nous Contactez</a></li>
-                                          
+
                                         </ul>
                                     </nav>
                                 </div>
                             </div>
                             <div class="col-xl-4 col-lg-4 d-none d-lg-block">
                                 <div class="social_wrap d-flex align-items-center justify-content-end">
-                                    
+
                                     <div class="main-menu d-none d-xl-block">
                                         <ul id="navigation">
-                                            
+
                                             <li>
-                                                <a href="contact.jsp"> <img src="img/user.png" alt="" height=35 width=50></a>
-                                                 <ul class="submenu">
-                                                    <li><a href="blog.jsp">Ma Liste</a></li>
-                                                    <li><a href="single-blog.jsp">Tout Voyages</a></li>
+                                                <a href="contact.jsp"> <img src="../img/user.png" alt="" height=35 width=50></a>
+                                                <ul class="submenu">
+                                                    <li><a href="User/blog.jsp">Profil</a></li>
+                                                    <li><a href="User/single-blog.jsp">Se Deconnecter</a></li>
                                                 </ul>
                                             </li>
                                         </ul>

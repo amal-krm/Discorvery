@@ -1,12 +1,4 @@
-<%-- 
-    Document   : footer
-    Created on : 3 juin 2020, 01:03:37
-    Author     : Amal
---%>
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
     <footer class="footer">
         <div class="footer_top">
             <div class="container">
@@ -15,7 +7,7 @@
                         <div class="footer_widget">
                             <div class="footer_logo">
                                 <a href="#">
-                                    <img src="img/logo.png" height=50 width=200>
+                                    <img src="../img/logo.png" height=50 width=200>
                                 </a>
                             </div>
                             <p>5th flora, 700/D kings road, green <br> lane New York-1782 <br>
@@ -92,32 +84,32 @@
                             <div class="instagram_feed">
                                 <div class="single_insta">
                                     <a href="#">
-                                        <img src="img/instagram/1.png" alt="">
+                                        <img src="../img/instagram/1.png" alt="">
                                     </a>
                                 </div>
                                 <div class="single_insta">
                                     <a href="#">
-                                        <img src="img/instagram/2.png" alt="">
+                                        <img src="../img/instagram/2.png" alt="">
                                     </a>
                                 </div>
                                 <div class="single_insta">
                                     <a href="#">
-                                        <img src="img/instagram/3.png" alt="">
+                                        <img src="../img/instagram/3.png" alt="">
                                     </a>
                                 </div>
                                 <div class="single_insta">
                                     <a href="#">
-                                        <img src="img/instagram/4.png" alt="">
+                                        <img src="../img/instagram/4.png" alt="">
                                     </a>
                                 </div>
                                 <div class="single_insta">
                                     <a href="#">
-                                        <img src="img/instagram/5.png" alt="">
+                                        <img src="../img/instagram/5.png" alt="">
                                     </a>
                                 </div>
                                 <div class="single_insta">
                                     <a href="#">
-                                        <img src="img/instagram/6.png" alt="">
+                                        <img src="../img/instagram/6.png" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -141,4 +133,66 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             </div>
         </div>
     </footer>
+
+
+  <!-- Modal -->
+  <div class="modal fade custom_search_pop" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="serch_form">
+            <input type="text" placeholder="Search" >
+            <button type="submit">search</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- link that opens popup -->
+    
+
+    <!-- JS here -->
+    <script src="../js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="../js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/isotope.pkgd.min.js"></script>
+    <script src="../js/ajax-form.js"></script>
+    <script src="../js/waypoints.min.js"></script>
+    <script src="../js/jquery.counterup.min.js"></script>
+    <script src="../js/imagesloaded.pkgd.min.js"></script>
+    <script src="../js/scrollIt.js"></script>
+    <script src="../js/jquery.scrollUp.min.js"></script>
+    <script src="../js/wow.min.js"></script>
+    <script src="../js/jquery-ui.min.js"> </script>
+    <script src="../js/nice-select.min.js"></script>
+    <script src="../js/jquery.slicknav.min.js"></script>
+    <script src="../js/jquery.magnific-popup.min.js"></script>
+    <script src="../js/plugins.js"></script>
+    <script src="../js/range.js"></script>
+        <!-- <script src="js/gijgo.min.js"></script> -->
+    <script src="../js/slick.min.js"></script>
+   
+
+    
+    <!--contact js-->
+    <script src="../js/contact.js"></script>
+    <script src="../js/jquery.ajaxchimp.min.js"></script>
+    <script src="../js/jquery.form.js"></script>
+    <script src="../js/jquery.validate.min.js"></script>
+    <script src="../js/mail-script.js"></script>
+
+
+    <script src="../js/main.js"></script>
+    <script>
+        $('#datepicker').datepicker({
+            iconsLibrary: 'fontawesome',
+            icons: {
+             rightIcon: '<span class="fa fa-caret-down"></span>'
+         }
+        });
+    </script>
+    </script>
+    
+</body>
+
 </html>
