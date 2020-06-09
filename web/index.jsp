@@ -37,9 +37,8 @@
     </head>
 
     <body>
-        <!--[if lte IE 9]>
-                <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-            <![endif]-->
+    
+        <!-- ================= We need if =================================================================================--> 
         <%@include file="Navbar.jsp" %>
 
         <!-- slider_area_start -->
@@ -208,6 +207,8 @@
         </div>
         <!-- popular_destination_area_end  -->
 
+       
+        <!-- ================= We need if =================================================================================--> 
         <!-- newletter_area_start  -->
         <div class="newletter_area overlay">
             <div class="container">

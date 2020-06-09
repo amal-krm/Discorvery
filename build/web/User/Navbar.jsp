@@ -18,7 +18,7 @@
                             <div class="col-xl-2 col-lg-2">
                                 <div class="logo">
                                     <a href="index.jsp">
-                                        <img src="img/logo.png" alt="" height=50 width=200>
+                                        <img src="img/logo.png" alt="" height=35 width=200>
                                     </a>
                                 </div>
                             </div>
@@ -27,37 +27,33 @@
                                     <nav>
                                         <ul id="navigation">
                                             <li><a class="active" href="index.jsp">home</a></li>
-                                            <li><a href="about.jsp">About</a></li>
-                                            <li><a class="" href="travel_destination.jsp">Destination</a></li>
-                                                <%--  <li><a href="#">pages <i class="ti-angle-down"></i></a>
-                                                    <ul class="submenu">
-                                                            <li><a href="destination_details.jsp">Destinations details</a></li>
-                                                            <li><a href="elements.jsp">elements</a></li>
-                                                    </ul>
-                                                </li> --%>
-                                            <li><a href="#">blog <i class="ti-angle-down"></i></a>
+                                            <li><a class="active" href="/User/Participations.jsp">Participations</a></li>
+                                            <li><a href="#">Voyages <i class="ti-angle-down"></i></a>
                                                 <ul class="submenu">
-                                                    <li><a href="blog.jsp">blog</a></li>
-                                                    <li><a href="single-blog.jsp">single-blog</a></li>
+                                                    <li><a href="blog.jsp">Ma Liste</a></li>
+                                                    <li><a href="single-blog.jsp">Tout Voyages</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="contact.jsp">Contact</a></li>
-                                            <li><a href="inscription.jsp">Inscription</a></li>
+                                            
+                                            <li><a href="contact.jsp">Nous Contactez</a></li>
+                                          
                                         </ul>
                                     </nav>
                                 </div>
                             </div>
                             <div class="col-xl-4 col-lg-4 d-none d-lg-block">
                                 <div class="social_wrap d-flex align-items-center justify-content-end">
-                                    <div class="number">
-                                        <p> <i class="fa fa-phone"></i> 10(256)-928 256</p>
-                                    </div>
-                                    <div class="social_links d-none d-xl-block">
-                                        <ul>
-                                            <li><a href="#"> <i class="fa fa-instagram"></i> </a></li>
-                                            <li><a href="#"> <i class="fa fa-linkedin"></i> </a></li>
-                                            <li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
-                                            <li><a href="#"> <i class="fa fa-google-plus"></i> </a></li>
+                                    
+                                    <div class="main-menu d-none d-xl-block">
+                                        <ul id="navigation">
+                                            
+                                            <li>
+                                                <a href="contact.jsp"> <img src="img/user.png" alt="" height=35 width=50></a>
+                                                 <ul class="submenu">
+                                                    <li><a href="blog.jsp">Ma Liste</a></li>
+                                                    <li><a href="single-blog.jsp">Tout Voyages</a></li>
+                                                </ul>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
