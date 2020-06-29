@@ -5,7 +5,13 @@
  */
 package OBJ;
 
-
+import java.io.Serializable;
+import javax.annotation.ManagedBean;
+import javax.enterprise.context.SessionScoped;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
 /**
  *
@@ -16,6 +22,11 @@ public class Aimer {
 
   private String Id_user;
   private String Id_voyages;
+  
+  public Aimer(String Id_voyages, String Id_user) {
+        this.Id_user = Id_user;
+        this.Id_voyages = Id_voyages;
+    }
 
     public String getId_user() {
         return Id_user;
@@ -57,4 +68,6 @@ public class Aimer {
 //        return "classes.Aimer[ id=" + id + " ]";
 //    }
 //    
+
+  
 }
