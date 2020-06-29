@@ -5,22 +5,38 @@
  */
 package OBJ;
 
+import java.io.Serializable;
+import javax.annotation.ManagedBean;
+import javax.enterprise.context.SessionScoped;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
-
-/**
- *
- * @author DREAM INFO
- */
 
 public class Voyage {
 
     private String Id_voyages;          
-    private String Id_respo;            
+    private String Id_respo;     
+    private String Nom_voyage;
     private String Description;         
     private String Ville;
     private String Date;
     private Double Prix;
     private Type_Voyage Type;
+    private String Photo;
+
+    public Voyage(String Id_voyages, String Id_respo, String Nom, String Description, String Ville, String Date, Double Prix, Type_Voyage Type, String image) {
+        this.Id_voyages = Id_voyages;
+        this.Id_respo = Id_respo;
+        this.Nom_voyage = Nom;
+        this.Description = Description;
+        this.Ville = Ville;
+        this.Date = Date;
+        this.Prix = Prix;
+        this.Type = Type;
+        this.Photo = image;
+    }
 
     public void setType(Type_Voyage Type) {
         this.Type = Type;
@@ -30,6 +46,22 @@ public class Voyage {
     
     public Type_Voyage getType() {
         return Type;
+    }
+
+    public void setPhoto(String Photo) {
+        this.Photo = Photo;
+    }
+
+    public String getPhoto() {
+        return Photo;
+    }
+
+    public void setNom_voyage(String Nom_voyage) {
+        this.Nom_voyage = Nom_voyage;
+    }
+
+    public String getNom_voyage() {
+        return Nom_voyage;
     }
 
     
@@ -86,29 +118,5 @@ public class Voyage {
 
     
 
-//    @Override
-//    public int hashCode() {
-//        int hash = 0;
-//        hash += (id != null ? id.hashCode() : 0);
-//        return hash;
-//    }
-//
-//    @Override
-//    public boolean equals(Object object) {
-//        // TODO: Warning - this method won't work in the case the id fields are not set
-//        if (!(object instanceof Voyage)) {
-//            return false;
-//        }
-//        Voyage other = (Voyage) object;
-//        if ((this.id == null && other.id != null) || (this.id != null && !this.id.equals(other.id))) {
-//            return false;
-//        }
-//        return true;
-//    }
-//
-//    @Override
-//    public String toString() {
-//        return "OBJ.Voyage[ id=" + id + " ]";
-//    }
     
 }
