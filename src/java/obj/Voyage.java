@@ -17,7 +17,7 @@ import javax.persistence.Id;
 public class Voyage {
 
     private String Id_voyages;          
-    private String Id_respo;     
+    private String Nom_respo;     
     private String Nom_voyage;
     private String Description;         
     private String Ville;
@@ -26,9 +26,9 @@ public class Voyage {
     private Type_Voyage Type;
     private String Photo;
 
-    public Voyage(String Id_voyages, String Id_respo, String Nom, String Description, String Ville, String Date, Double Prix, Type_Voyage Type, String image) {
+    public Voyage(String Id_voyages, String Nom_respo, String Nom, String Description, String Ville, String Date, Double Prix, Type_Voyage Type, String image) {
         this.Id_voyages = Id_voyages;
-        this.Id_respo = Id_respo;
+        this.Nom_respo = Nom_respo;
         this.Nom_voyage = Nom;
         this.Description = Description;
         this.Ville = Ville;
@@ -70,8 +70,8 @@ public class Voyage {
         this.Id_voyages = Id_voyages;
     }
 
-    public void setId_respo(String Id_respo) {
-        this.Id_respo = Id_respo;
+    public void setNom_respo(String Id_respo) {
+        this.Nom_respo = Id_respo;
     }
 
     public void setDescription(String Description) {
@@ -96,8 +96,8 @@ public class Voyage {
         return Id_voyages;
     }
 
-    public String getId_respo() {
-        return Id_respo;
+    public String getNom_respo() {
+        return Nom_respo;
     }
 
     public String getDescription() {
