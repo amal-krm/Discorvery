@@ -28,7 +28,7 @@ public class daoVoyage extends DAO<Voyage>{
         try {
             PS = db.con.prepareStatement("INSERT INTO discovery.voyages VALUES (?,?,?,?,?,?,?,?,?);");
             PS.setObject(1, obj.getId_voyages());
-            PS.setObject(2, obj.getId_respo());
+            PS.setObject(2, obj.getNom_respo());
             PS.setObject(3, obj.getNom_voyage());
             PS.setObject(4, obj.getDescription());
             PS.setObject(5, obj.getVille());
@@ -83,7 +83,7 @@ public class daoVoyage extends DAO<Voyage>{
         try {
             PS = db.con.prepareStatement("UPDATE discovery.voyages SET Id_respo = ?, Nom_voyage=?, Description = ?, Ville = ?, Date = ?, Prix = ?, Type_voyage = ?, Photo=? WHERE Id_voyages = ?;");
 
-            PS.setObject(1, obj.getId_respo());
+            PS.setObject(1, obj.getNom_respo());
             PS.setObject(2, obj.getNom_voyage());
             PS.setObject(3, obj.getDescription());
             PS.setObject(4, obj.getVille());
