@@ -208,55 +208,7 @@
         <!-- popular_destination_area_end  -->
 
        
-        <!-- ================= We need if =================================================================================--> 
-        <!-- newletter_area_start  -->
-        <div class="newletter_area overlay">
-            <div class="container">
-                <div class="row justify-content-center align-items-center">
-                    <div class="col-lg-10">
-                        <div class="row align-items-center">
-                            <div class="col-lg-5">
-                                <div class="newsletter_text">
-                                    <h4><br>Se connecter</br></h4>
-                                    <p>Si vous n'avez pas de compte</p>
-                                    <p>Inscrivez-vous!</p>
-                                </div>
-                            </div>
-                          
-                                <div class="col-lg-7">
-                                      <form method="post" action="Login">
-                                    <div class="mail_form">
-                                        <div class="row no-gutters p-2">
-                                            <div class="col-lg-9 col-md-8">
-                                                <div class="newsletter_field">
-                                                    <input name="txtLogin" value="${login}"   placeholder="Votre email" >
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-4">
-                                                <div class="newsletter_btn">
-                                                    <button class="boxed-btn4 " value="Connect" type="submit" >Se connecter</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row no-gutters p-2">
-                                            <div class="col-lg-9 col-md-8">
-                                                <div class="newsletter_field">
-                                                    <input  name="txtPassword"  type="password" placeholder="Votre mot de passe" >
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="errorMessage">${errorMessage}</div>
-                                    </form>
-                                </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- newletter_area_end  -->
-
+       
         <div class="popular_places_area">
             <div class="container">
                 <div class="row justify-content-center">

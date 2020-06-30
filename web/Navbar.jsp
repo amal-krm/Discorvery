@@ -29,7 +29,7 @@
                                             <li><a class="active" href="index.jsp">home</a></li>
                                             <li><a class="" href="Voyages.jsp">Nos Voyages</a></li>
                                             <li><a href="contact.jsp">Nous Contactez</a></li>
-                                            <li><a href="Inscription.jsp">Inscription</a></li>
+                                          
                                         </ul>
                                     </nav>
                                 </div>
