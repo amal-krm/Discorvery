@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>ViewVoyageServlet</servlet-name>
+        <servlet-class>ViewVoyageServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewVoyageServlet</servlet-name>
+        <url-pattern>/ViewVoyageServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>DeleteVoyageServlet</servlet-name>
+        <servlet-class>DeleteVoyageServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteVoyageServlet</servlet-name>
+        <url-pattern>/DeleteVoyageServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>SaveVoyageServlet</servlet-name>
+        <servlet-class>SaveVoyageServlet</servlet-class>
+    </servlet>   
     <session-config>
         <session-timeout>
             30

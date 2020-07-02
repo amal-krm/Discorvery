@@ -3,17 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package OBJ;
-
-import java.io.Serializable;
-import javax.annotation.ManagedBean;
-import javax.enterprise.context.SessionScoped;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-
-
+package obj;
 public class Voyage {
 
     private String Id_voyages;          
@@ -25,6 +15,17 @@ public class Voyage {
     private Double Prix;
     private Type_Voyage Type;
     private String Photo;
+
+    public Voyage(String Nom_respo, String Nom_voyage, String Description, String Ville, String Date, Double Prix, Type_Voyage Type, String Photo) {
+        this.Nom_respo = Nom_respo;
+        this.Nom_voyage = Nom_voyage;
+        this.Description = Description;
+        this.Ville = Ville;
+        this.Date = Date;
+        this.Prix = Prix;
+        this.Type = Type;
+        this.Photo = Photo;
+    }
 
     public Voyage(String Id_voyages, String Nom_respo, String Nom, String Description, String Ville, String Date, Double Prix, Type_Voyage Type, String image) {
         this.Id_voyages = Id_voyages;

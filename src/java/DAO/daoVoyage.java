@@ -7,17 +7,18 @@ package DAO;
 
 import Database.DAO;
 import Database.Database;
-import OBJ.Voyage;
+
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import obj.Voyage;
 
 
 public class daoVoyage extends DAO<Voyage>{
 
     
-     Database db;
+    Database db;
     public daoVoyage(Database db){
          this.db =db; 
     }
